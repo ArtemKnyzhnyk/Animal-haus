@@ -8,15 +8,6 @@
 body {
   font-family: Poppins;
 }
-
-.container{
-width: 1376px;
-padding-left: 8px;
-padding-right: 8px;
-outline:solid #ef3959;
-margin-left: auto;
-margin-right: auto;
-}
 /* header-section */
 .header-link {
   color:var(--text-color);
@@ -61,6 +52,7 @@ line-height: 120%;
 .info-text{
 color:var(--subtext);
 text-overflow: ellipsis;
+white-space: nowrap;
 font-size: 24px;
 font-weight: 500;
 line-height: normal;
