@@ -1,0 +1,112 @@
+:root {
+  --text-color: #202053;
+  --button-color: #ef3959;
+  --akzept-color: #4a86ff;
+  --background-sait:#ffff;
+  --subtext:#404040;
+}
+body {
+  font-family: Poppins;
+}
+/* header-section */
+.header-link {
+  color:var(--text-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-button {
+  color:var(--background-sait);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+/* hero section */
+.hero-title{
+    color:var(--text-color);
+font-size: 64px;
+font-weight: 800;
+line-height: 130%;
+}
+.hero-text{
+  color:var(--subtext);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.hero-button{
+  color:var(--background-sait);
+text-align: center;
+font-size: 36px;
+font-weight: 600;
+line-height: 120%; 
+}
+.info-title{
+  color:var(--text-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 130%;
+}
+.info-text{
+color:var(--subtext);
+text-overflow: ellipsis;
+white-space: nowrap;
+font-size: 24px;
+font-weight: 500;
+line-height: normal;
+}
+.info-button{
+  color:var(--button-color);
+text-align: center;
+font-size: 36px;
+font-weight: 600;
+line-height: 120%;
+}
+.gallery-title{
+  color:var(--text-color);
+text-align: center;
+font-size: 56px;
+font-weight: 800;
+line-height: 130%; 
+}
+.gellery-text{
+  color: var(--subtext);
+text-align: center;
+font-size: 24px;
+font-weight: 500;
+line-height: normal;
+}
+.gallery-subtitle{
+  color: var(--text-color);
+font-size: 40px;
+font-weight: 700;
+line-height: normal;
+}
+.gallery-age {
+  color:var(--subtext);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+.gallery-btn{
+  color:var(--button-color);
+text-align: center;
+font-size: 36px;
+font-weight: 600;
+line-height: 120%; 
+}
+.conditions-title{
+  color:var(--text-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 130%;
+}
+.conditions-text{
+  color: var(--subtext);
+font-size: 24px;
+font-weight: 500;
+line-height: normal;
+}
