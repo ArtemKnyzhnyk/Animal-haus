@@ -118,3 +118,97 @@ font-size: 24px;
 font-weight: 500;
 line-height: normal;
 }
+.lokation-title {
+  color:var(--text-color);
+  text-align: center;
+  
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+}
+.contact-title{
+  color:var(--text-color);
+text-align: center;
+font-family: Poppins;
+font-size: 56px;
+font-style: normal;
+font-weight: 800;
+line-height: 130%; 
+}
+.contact-text{
+  color: var(--text-color);
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+}
+.contact-title{
+  color:var(--akzept-color);
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+}
+.contact-item{
+  color:var(--text-color);
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+}
+.help-title{
+  color:var(--text-color);
+text-align: center;
+font-family: Poppins;
+font-size: 56px;
+font-style: normal;
+font-weight: 800;
+line-height: 130%; 
+}
+.help-subtitle{
+  color:var(--text-color);
+text-align: center;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.help-text{
+  color: var(--subtext);
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
+.help-button{
+  color:var(--background-sait);
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; 
+}
+.footer-text{
+  color:var(--text-color);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+.footer-a{
+  color:var(--subtext);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
