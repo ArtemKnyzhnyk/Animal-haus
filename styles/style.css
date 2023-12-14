@@ -17,6 +17,24 @@ outline:solid #ef3959;
 margin-left: auto;
 margin-right: auto;
 }
+.header-logo{
+  width: 212px;
+  height: 62px; 
+  display:block;
+}
+.header-container{
+  display: flex;
+  align-items: center;
+}
+.header-list{
+  display: flex;
+  gap: 30px;
+  outline: solid green;
+  margin-left: auto;
+  margin-right: 24px;
+  align-items: center;
+  
+}
 /* header-section */
 .header-link {
   color:var(--text-color);
@@ -30,6 +48,18 @@ margin-right: auto;
   font-size: 24px;
   font-weight: 600;
   line-height: normal;
+  margin-left: 24px;
+  display: flex;
+width: 213px;
+height: 76px;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 25px;
+background: var(--Red, #EF3959);
+box-shadow: 0px 0px 40px 0px rgba(239, 57, 89, 0.40);
+
 }
 /* hero section */
 .hero-title{
