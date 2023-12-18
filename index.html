@@ -23,9 +23,8 @@
   <body>
     <header class="header-section">
       <div class="container header-container">
-        <img class="header-logo" src="./images/footer-logo.png" alt="logo">
+        <img class="header-logo" src="./images/footer-logo.png" alt="logo" />
         <ul class="header-list">
-        
           <li class="header-item">
             <a class="header-link" href="">Домашня</a>
           </li>
@@ -53,13 +52,17 @@
     </header>
     <main>
       <section class="hero-section">
-        <div class="container">
-          <h2 class="hero-title">Цим оченятам дуже потрібні любов і турбота</h2>
-          <p class="hero-text">
-            Вірний друг радітиме тобі завжди. Йому потрібно дуже мало - теплий
-            дім та дбайливий господар
-          </p>
-          <button class="hero-button" type="button">Обрати</button>
+        <div class="container hero-container">
+          <div class="hero-subcontainer">
+            <h2 class="hero-title">
+              Цим оченятам дуже потрібні любов і турбота
+            </h2>
+            <p class="hero-text">
+              Вірний друг радітиме тобі завжди. Йому потрібно дуже мало - теплий
+              дім та дбайливий господар
+            </p>
+            <button class="hero-button" type="button">Обрати</button>
+          </div>
           <img
             class="hero-photo"
             src="./images/hero-dog1.png"
@@ -68,33 +71,38 @@
         </div>
       </section>
       <section class="info-section">
-        <div class="container">
-          <h2 class="info-title">Про нас</h2>
-          <p class="info-text">
-            В притулку весь час знаходиться 350 дорослих та 20 цуценят. В
-            залежності від швидкості прилаштувань цифри змінюються. Все почалося
-            зі співчуття до масово викинутих тварин у місті, доля яких всім була
-            байдужою. Власними зусиллями та особистими коштами волонтерів та
-            небайдужих людей ми розпочали прилаштування та стерилізацію тварин
-            для зменшення кількості безхатьків. За роки нашої праці в рік
-            стерилізується понад 400 тварин, а дім знаходять близько 240
-            безхатьків, деяких вдається прилаштувати навіть за кордон. Ми
-            постійно покращуємо умови для проживання собак, проводимо ремонтні
-            роботи вольєрів, облагороджуємо територію притулку. Проводимо масову
-            вакцинацію собак, щоб уникнути спалаху захворювань. Наша робота
-            вимагає дуже багато зусиль, як фізичних, так і фінансових. Допомога
-            від міста полягає тільки у стерилізації та кастрації тварин, а всі
-            інші витрати, включно із зарплатою, оплатою комунальних послуг,
-            ремонтними роботами та лікуванням хворих тварин - це все на руках
-            волонтерів та благодійних коштах. Ми щиро сподіваємося, що наша
-            праця не марна і нас підтримають люди по всьому світу!
-          </p>
-          <button class="info-button" type="button">Детальніше</button>
+        <div class="container info-container">
+          <div class="info-img">
           <img
-            class="info-pfoto"
-            src="./images/info-dog1.png"
-            alt="info-dog1"
-          />
+          class="info-pfoto"
+          src="./images/info-dog1.png"
+          alt="info-dog1"
+        />
+      </div>
+          <div class="info-box">
+            <h2 class="info-title">Про нас</h2>
+            <p class="info-text">
+              В притулку весь час знаходиться 350 дорослих та 20 цуценят. В
+              залежності від швидкості прилаштувань цифри змінюються. Все
+              почалося зі співчуття до масово викинутих тварин у місті, доля
+              яких всім була байдужою. Власними зусиллями та особистими коштами
+              волонтерів та небайдужих людей ми розпочали прилаштування та
+              стерилізацію тварин для зменшення кількості безхатьків. За роки
+              нашої праці в рік стерилізується понад 400 тварин, а дім знаходять
+              близько 240 безхатьків, деяких вдається прилаштувати навіть за
+              кордон. Ми постійно покращуємо умови для проживання собак,
+              проводимо ремонтні роботи вольєрів, облагороджуємо територію
+              притулку. Проводимо масову вакцинацію собак, щоб уникнути спалаху
+              захворювань. Наша робота вимагає дуже багато зусиль, як фізичних,
+              так і фінансових. Допомога від міста полягає тільки у стерилізації
+              та кастрації тварин, а всі інші витрати, включно із зарплатою,
+              оплатою комунальних послуг, ремонтними роботами та лікуванням
+              хворих тварин - це все на руках волонтерів та благодійних коштах.
+              Ми щиро сподіваємося, що наша праця не марна і нас підтримають
+              люди по всьому світу!
+            </p>
+            <button class="info-button" type="button">Детальніше</button>
+          </div>
         </div>
       </section>
       <section class="gallery-section">
@@ -900,40 +908,55 @@
           <h2 class="help-title">Як допомогти</h2>
           <article class="help-article">
             <h2 class="help-subtitle">Бажаєте допомогти притулку?</h2>
-            <p class="help-text">Перейдіть за посиланням та заповніть форму
-              Ми з вами обов’язково звяжемось</p>
-            <button type="button" class="help-button">Button сontact us Desctop/Tablet</button>
+            <p class="help-text">
+              Перейдіть за посиланням та заповніть форму Ми з вами обов’язково
+              звяжемось
+            </p>
+            <button type="button" class="help-button">
+              Button сontact us Desctop/Tablet
+            </button>
           </article>
         </div>
       </section>
     </main>
     <footer class="footer-section">
       <div class="container">
-      <img class="footer-logo" src="./images/footer-logo.png" alt="logo">
-      <p class="footer-text">Приєднутесь до нас в соціальних мережах</p>
-      <img class="footer-photo" src="./images/footer-facebook.png" alt="facebook">
-      <img class="footer-photo" src="./images/footer-instagram.png" alt="instagram">
-      <img class="footer-photo" src="./images/footer-telegram.png" alt="telegram">
-      <a class="footer-a" href="">Про нас</a>
-      <a class="footer-a" href="">Наші умови</a>
-      <a class="footer-a" href="">Наша команда</a>
-      <a class="footer-a" href="">Історія створення</a>
-      <a class="footer-a" href="">Вірні друзі</a>
-      <a class="footer-a" href="">Обрати друга</a>
-      <a class="footer-a" href="">Щасливчики</a>
-      <a class="footer-a" href="">Стати волонтером</a>
-      <a class="footer-a" href="">Локаця</a>
-      <a class="footer-a" href="">Контакти</a>
-      <a class="footer-a" href="">Інормація</a>
-      <a class="footer-a" href="">Допомогти матеріально:</a>
-      <a class="footer-a" href="">ГО “ХАТИНА”</a>
-      <a class="footer-a" href="">ЄДРПОУ:  123456789</a>
-      <a class="footer-a" href="">Карта Приватбанку</a>
-      <a class="footer-a" href="">4141   2929   4646   1111</a>
-      <a class="footer-a" href="">Прокопів Петро Павлович</a>
-      <p class="footer-text">Всі права захищено reserved@hatyna.ua
-      </p>
-    </div>
+        <img class="footer-logo" src="./images/footer-logo.png" alt="logo" />
+        <p class="footer-text">Приєднутесь до нас в соціальних мережах</p>
+        <img
+          class="footer-photo"
+          src="./images/footer-facebook.png"
+          alt="facebook"
+        />
+        <img
+          class="footer-photo"
+          src="./images/footer-instagram.png"
+          alt="instagram"
+        />
+        <img
+          class="footer-photo"
+          src="./images/footer-telegram.png"
+          alt="telegram"
+        />
+        <a class="footer-a" href="">Про нас</a>
+        <a class="footer-a" href="">Наші умови</a>
+        <a class="footer-a" href="">Наша команда</a>
+        <a class="footer-a" href="">Історія створення</a>
+        <a class="footer-a" href="">Вірні друзі</a>
+        <a class="footer-a" href="">Обрати друга</a>
+        <a class="footer-a" href="">Щасливчики</a>
+        <a class="footer-a" href="">Стати волонтером</a>
+        <a class="footer-a" href="">Локаця</a>
+        <a class="footer-a" href="">Контакти</a>
+        <a class="footer-a" href="">Інормація</a>
+        <a class="footer-a" href="">Допомогти матеріально:</a>
+        <a class="footer-a" href="">ГО “ХАТИНА”</a>
+        <a class="footer-a" href="">ЄДРПОУ: 123456789</a>
+        <a class="footer-a" href="">Карта Приватбанку</a>
+        <a class="footer-a" href="">4141 2929 4646 1111</a>
+        <a class="footer-a" href="">Прокопів Петро Павлович</a>
+        <p class="footer-text">Всі права захищено reserved@hatyna.ua</p>
+      </div>
     </footer>
   </body>
 </html>
